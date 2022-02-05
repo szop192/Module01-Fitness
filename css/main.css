@@ -1,0 +1,73 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+.container
+{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 26px;
+    padding-bottom: 25px;
+}
+.header-item
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 55%;
+}
+.header-logo
+{
+    display: block;
+    background-image: url(../img/svg/logo.svg);
+    width: 97px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-nav
+{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    gap: 46px;
+}
+.header-nav a
+{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #2B3541;
+    transition: 0.3s;
+}
+.header-soc
+{
+    display: flex;
+    gap: 30px;
+}
+.inst
+{
+    display: block;
+    background-image: url(../img/svg/IN.svg);
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.face
+{
+    display: block;
+    background-image: url(../img/svg/FB.svg);
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
