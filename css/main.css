@@ -8,13 +8,14 @@ body
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    position: relative;
 }
 .header
 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 39px;
+    padding-top: 36px;
     padding-bottom: 27px;
 }
 .header-item
@@ -88,3 +89,71 @@ body
     transform: scale(1.2);
     opacity: 1;
 }
+
+/*MAIN*/
+
+.main-box {
+    display: flex;
+    max-width: 790px;
+    width: 100%;
+    gap: 20px;
+    position: absolute;
+    top: -34px;
+    z-index: -1;
+    right: -63px;
+    margin-top: 20px;
+ }
+ .main-box-left {
+    background: linear-gradient(90deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 145.23%);
+    flex-basis: 70%;
+    height: 850px;
+    opacity: 0.2;
+ }
+ .main-box-right {
+    background: #ff0;
+    flex-basis: 30%;
+    height: 850px;
+    background: linear-gradient(90deg, #FDF9B6 0%, rgba(253, 249, 182, 0.7) 166.81%);
+    opacity: 0.2;
+ }
+ .main-box-img {
+    background-image: url(../img/girl.png);
+    position: absolute;
+    top: 28px;
+    right: -105px;
+    width: 996px;
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: contain;
+ }
+ .main-text h2
+ {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 125%;
+    padding-top: 212px;
+    color: #2B3541;
+    padding-bottom: 5px;
+    margin: 0;
+    letter-spacing: 0.03em;
+ }
+ .main-text-tren
+ {
+    font-size: 40px;
+    line-height: 125%;
+    color: #2B3541;
+    font-weight: 400;
+    margin-bottom: 10px;
+ }
+ .main-text-butt
+ {
+    padding-left: 90px;
+ }
+ .main-text-obl
+ {
+    color: #2B3541;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+ }
