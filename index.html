@@ -19,9 +19,9 @@
                     <a href="#" class="header-logo"></a>
                     <nav>
                         <ul class="header-nav">
-                            <li><a href="#">Мероприятия</a></li>
-                            <li><a href="#">Расписание</a></li>
-                            <li><a href="#">О компании</a></li>
+                            <li><a href="#events" class="scroll">Мероприятия</a></li>
+                            <li><a href="#" class="scroll">Расписание</a></li>
+                            <li><a href="#" class="scroll">О компании</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -34,21 +34,90 @@
     </header>
     <main>
         <div class="container">
-            <div class="main-text">
-                <h2>онлайн тренировки<br>любой сложности</h2>
-                <p class="main-text-tren"> > 15 тренировок </p>
-                <div class="main-text-butt">
-                    <p class="main-text-obl">в области спортивной<br>физиологии и нутрициологии</p>
-                    <button>УЗНАТЬ ПОДРОБНЕЕ</button>
+            <section>
+                <div class="main-text">
+                    <h2>онлайн тренировки<br>любой сложности</h2>
+                    <p class="main-text-tren"> &gt 15 тренировок </p>
+                    <div class="main-text-butt">
+                        <p class="main-text-obl">в области спортивной<br>физиологии и нутрициологии</p>
+                        <a href="#" class="main-btn">УЗНАТЬ ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+                <div class="main-box">
+                    <div class="main-box-left"></div>
+                    <div class="main-box-right"></div>
+                    <div class="main-box-img"></div>
+                </div>
+                <a href="#" class="main-arrow scroll">
+                    <img class="main-arrow-img" src="img/svg/arrow.svg" alt="arrow">
+                </a>
+            </section>
+        <section>
+            <div class="events" id="events">
+                <h1 class="events-h1">Ближайшие события</h1>
+                <div class="events-slides">
+                    <div class="events-f1">
+                        <div class="events-f-gr">
+                            <p class="events-data">29.06 - 4.07</p>
+                            <h2 class="events-h2">Марафон выносливости</h2>
+                            <a href="#" class="events-hidden-btn">Учавствовать</a>
+                            <p class="events-type">марафон</p>
+                        </div>
+                    </div>
+                    <div class="events-f2">
+                        <div class="events-f-gr">
+                            <p class="events-data">9.07</p>
+                            <h2 class="events-h2">Как стать тренером?</h2>
+                            <a href="#" class="events-hidden-btn">Учавствовать</a>
+                            <p class="events-type">вебинар</p>
+                        </div>
+                    </div>
+                    <div class="events-f3">
+                        <div class="events-f-gr">
+                            <p class="events-data">15.07</p>
+                            <h2 class="events-h2">Йога, как стиль жизни</h2>
+                            <a href="#" class="events-hidden-btn">Учавствовать</a>
+                            <p class="events-type">вебинар</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="main-box">
-                <div class="main-box-left"></div>
-                <div class="main-box-right"></div>
-                <div class="main-box-img"></div>
-            </div>
-            <button></button>
+        </section>
         </div>
     </main>
+    <script>
+        // Smooth Scroll
+
+        const links = document.querySelectorAll(".scroll");
+
+        for (const link of links) {
+            link.addEventListener("click", clickHandler);
+        }
+
+        function clickHandler(e) {
+            e.preventDefault();
+            const href = this.getAttribute("href");
+
+            document.querySelector(href).scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+
+        // Menu
+
+        function openModal() {
+           document.getElementById("modal").style.top = "-20px";
+        }
+
+        function closeModal() {
+           document.getElementById("modal").style.top = "-460px";
+        }
+
+        // Popup
+
+        function closePopup() {
+           document.getElementById("background").style.top = "-2000px";
+        }
+    </script>
 </body>
 </html>
