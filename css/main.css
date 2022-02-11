@@ -367,6 +367,7 @@ body
     grid-template-rows: 250px 39px 73px 281px;
     gap: 20px;
     margin-top: 40px;
+    margin-bottom: 160px;
 }
 .tren-grid-item 
 {
@@ -378,14 +379,13 @@ body
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    transition: 0.4s;
     position: relative;
 }
 
 .tren-grid-item:hover
 {
     box-shadow: 0px 4px 30px rgba(43, 53, 65, 0.2);
-    border: transparent;
+    border: 1px solid transparent;
 }
 .tren-action
 {
@@ -394,7 +394,7 @@ body
 }
 .tren-action:hover
 {
-    box-shadow: 0px 13px 24px rgba(251, 241, 56, 0.4);
+    box-shadow: 0px 13px 24px rgba(251, 241, 56, 0.3);
 }
 .tren-grid-name
 {
@@ -435,15 +435,15 @@ body
 }
 .tren-grid-item:hover .tren-grid-name-2
 {
+    padding-bottom: 0px;
     margin-top: 50px;
     margin-bottom: 0px;
 }
 .tren-grid-item:hover .tren-grid-h3-2
 {
     margin-bottom:0px;
-    padding-bottom:0px;
+    padding-bottom: 0px;
 }
-
 .tren-grid-item:hover .tren-grid-name-3
 {
     padding-bottom: 0px;
@@ -461,7 +461,7 @@ body
 }
 .tren-grid-item:hover .tren-grid-h3-4
 {
-    margin-bottom:0px;
+    margin:0px;
 }
 .tren-grid-item:hover .tren-grid-name-5
 {
@@ -474,7 +474,7 @@ body
 }
 .tren-grid-item:hover .tren-grid-h3-5
 {
-    margin:0px;
+    margin-bottom:0px;
 }
 .tren-grid-item:hover .tren-grid-name-6
 {
@@ -584,5 +584,173 @@ body
 {
     grid-column: 3 / 4;
     grid-row: 3 / 5;
+}
+.email
+{
+    background-color:#F3F3F3;
+    width: 100%;
+    height: 348px;
+    display: flex;
+    justify-content: center;
+}
+.email-header
+{
+    padding: 52px 0 18px 0;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+    color: #2B3541;
+    position: relative;
+    z-index: 1;
+    margin-left: 33px;
+}
+.email-header-circle
+{
+    position: absolute;
+    background: #FBF138;
+    border-radius: 100%;
+    width: 53px;
+    height: 53px;
+    top: 33px;
+    right: 596px;
+    z-index: -1;
+    box-shadow: 0px 13px 24px rgba(251, 241, 56, 0.3);
+}
+form
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+input 
+{
+    display: block;
+    width: 50%;
+    margin-bottom: 10px;
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 21px 150px 21px 19px;
+    font-size: 18px;
+    color: #2B3541;
+    margin-left: 20px;
+}
+ /* Cтили для input, когда пользователь вводит данные. Часто используют outline:none; для отключения стандартной синей обводке в форме */
+input:focus 
+{
+    outline: none;
+}
+ /* Стили для ограниченного input */
+input:disabled 
+{
+    border: 1px solid #F3F3F3;
+    background: #F3F3F3;
+}
+ /* Стили для ошибки в input */
+input:invalid 
+{
+    border: 1px solid #AE0303;
+}
+input p 
+{
+    color: #AE0303;
+    font-size: 13px;
+    margin-top: 3px;
+}
+.email-btn
+{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2B3541;
+    border: none;
+    padding: 20px 40px;
+    cursor: pointer;
+    background: #FBF138;
+    box-shadow: 0px 13px 24px rgba(251, 241, 56, 0.2);
+    margin-bottom: 10px;
+}
+.label-text
+{
+    font-size: 11px;
+    color: #2B3541;
+    opacity: 0.5;
+}
+ /* Стили для placeholder */
+ 
+input::placeholder {
+   color: rgba(43, 53, 65, .3);
+}
+.checkbox:checked,
+.checkbox:not(:checked){
+   position: absolute;
+   left:-9999px;
+}
+.checkbox:checked + label,
+.checkbox:not(:checked) + label{
+   position: relative;
+   padding-left: 25px;
+   cursor:pointer;
+   margin-left: 19px;
+}
+/* Стили для псевдоэлемента before с фоном и обводкой, когда пункт активен */
+.checkbox:checked + label::before{
+   content:'';
+   position: absolute;
+   width: 16px;
+   height: 16px;
+   left:0;
+   top:calc(50% - 10px);
+   background-color: #2B3541;
+   border-radius: 2px;
+   border: 2px solid #2B3541;
+}
+/* Стили для псевдоэлемента after с изображением, когда пункт активен */
+.checkbox:checked + label::after{
+   content:'';
+   position: absolute;
+   width: 12px;
+   height: 12px;
+   transition: all .2s ease;
+   opacity: 1;
+   left: 4px;
+   top: calc(50% - 6px);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_check.svg/2048px-White_check.svg.png);
+}
+/* Стили для псевдоэлемента before с фоном и обводкой, когда пункт НЕ активен */
+.checkbox:not(:checked) + label::before{
+   content:'';
+   position: absolute;
+   width: 16px;
+   height: 16px;
+   left:0;
+   top:calc(50% - 10px);
+   background-color: transparent;
+   border-radius: 2px;
+   border: 2px solid #2B3541;
+}
+/* Стили для псевдоэлемента after с изображением, когда пункт НЕ активен */
+.checkbox:not(:checked) + label::after{
+   content:'';
+   position: absolute;
+   width: 12px;
+   height: 12px;
+   transition: all .2s ease;
+   opacity: 0;
+   left: 4px;
+   top: calc(50% - 6px);
+   background-position: 0 -12px;
+   background-color: transparent;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_check.svg/2048px-White_check.svg.png);
+}
+.radio:checked + label::before{
+   border-radius: 100%;
 }
 
