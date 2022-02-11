@@ -676,8 +676,20 @@ input p
 .label-text
 {
     font-size: 11px;
+    line-height: 150%;
     color: #2B3541;
     opacity: 0.5;
+}
+.email-a
+{
+    transition: 0.2s;
+    color: #2B3541;
+    opacity: 0.8;
+}
+.email-a:hover
+{
+    opacity: 1;
+    color: #010101;
 }
  /* Стили для placeholder */
  
