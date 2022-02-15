@@ -139,10 +139,10 @@ body
  .main-box-img {
     background-image: url(../img/girl.png);
     position: absolute;
-    top: 45px;
-    right: -97px;
+    top: 40px;
+    right: -96px;
     width: 986px;
-    height: 850px;
+    height: 869px;
     background-repeat: no-repeat;
     background-size: contain;
 }
