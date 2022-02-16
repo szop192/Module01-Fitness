@@ -1064,11 +1064,53 @@ footer
 }
 
 
+/*MEDIA*/
 
-@media (min-width: 766px)
+
+@media (min-width: 769px)
 {
     .header-burger
     {
         display: none;
+    }
+}
+@media (max-width: 1050px)
+{
+    .header-item
+    {
+        flex-basis: 75.7%;
+    }
+    .header-nav
+    {
+        gap: 40px
+    }
+    .header-nav-modal
+    {
+        gap: 27px
+    }
+    .header-item-modal
+    {
+        flex-basis: 57.7%;
+    }
+}
+@media (max-width: 768px)
+{
+    .header-nav
+    {
+        display: none;
+    }
+    .header-nav-modal
+    {
+        display: flex;
+    }
+    .header
+    {
+        position: relative;
+    }
+    .header-burger
+    {
+        position: absolute;
+        left: 144px;
+        top: 55px;
     }
 }
