@@ -15,13 +15,16 @@
     <header>
         <div class="container">
             <div class="header">
+                <div class="header-burger">
+                    <button class="burger" onclick="openModal()"></button>
+                </div>
                 <div class="header-item">
                     <a href="#" class="header-logo"></a>
                     <nav>
                         <ul class="header-nav">
                             <li><a href="#events" class="scroll">Мероприятия</a></li>
                             <li><a href="#tren" class="scroll">Расписание</a></li>
-                            <li><a href="#content" class="scroll">О компании</a></li>
+                            <li><a href="#content" class="scroll">О&nbspкомпании</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -214,6 +217,23 @@
             </div>
         </div>
     </footer>
+    <div id="modal" class="modal">
+        <div class="header-item header-item-modal">
+            <a href="#" class="header-logo header-logo-modal"></a>
+            <nav>
+                <ul class="header-nav header-nav-modal">
+                    <li><a href="#events" class="scroll">Мероприятия</a><hr></li>
+                    <li><a href="#tren" class="scroll">Расписание</a><hr></li>
+                    <li><a href="#content" class="scroll">О компании</a><hr></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-soc header-soc-modal">
+            <a href="#" class="inst"></a>
+            <a href="#" class="face"></a>
+        </div>
+        <button class="burger-close" onclick="closeModal()"></button>
+    </div>
     <script>
         // Smooth Scroll
 
@@ -235,7 +255,7 @@
         // Menu
 
         function openModal() {
-           document.getElementById("modal").style.top = "-20px";
+           document.getElementById("modal").style.top = "0px";
         }
 
         function closeModal() {
