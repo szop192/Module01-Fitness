@@ -424,6 +424,8 @@ body
 {
     margin-top: 110px;
     margin-left: 7px;
+    margin-bottom: 0px;
+    margin-bottom:0px;
 }
 .tren-grid-name-5
 {
@@ -457,14 +459,14 @@ body
 }
 .tren-grid-item:hover .tren-grid-h3-2
 {
-    margin-bottom:0px;
+    
     padding-bottom: 0px;
 }
 .tren-grid-item:hover .tren-grid-name-3
 {
     padding-bottom: 0px;
-    margin-top: 50px;
-    margin-bottom: 0px;
+    margin-top: -5px;
+    
 }
 .tren-grid-item:hover .tren-grid-h3-3
 {
@@ -561,16 +563,17 @@ body
     max-height: 0;
     transition: 0.4s linear;
     line-height: 150%;
-    margin-top: 10px; 
+    margin-top: 15px; 
     margin-left: 10px;
     font-size: 18px;
     color: #2B3541;
     padding-left: 20px;
+    width: 300px;
 }
 .tren-grid-item:hover .tren-grid-hidden 
 {
     max-height: 150px;
-    margin-top: 5px; 
+    margin-top: 0px; 
 }
 .tren-grid-item:nth-child(1) 
 {
@@ -1237,11 +1240,70 @@ footer
     .tren-grid-hidden
     {
         margin-top: 0px;
+        margin-bottom: 0px;
     }
     .tren-grid-name-1
     {
         margin-top: 130px;
     }
+    .tren-grid-item:hover .tren-grid-name-1
+    {
+        margin-top: 70px;
+    }
+    .tren-grid-item:hover .tren-grid-img-1
+    {
+        margin-bottom: 18px;
+    }
+    .tren-grid-item:hover .tren-grid-date-1
+    {
+        margin-bottom: 0px;
+    }
+    .tren-grid-name-2
+    {
+        margin-top: 0px;
+    }
+    .tren-grid-item:hover .tren-grid-name-2
+    {   
+        margin-top: -55px;
+    }
+    .tren-grid-name-3
+    {
+        margin-top: 53px;
+    }
+    .tren-grid-item:hover .tren-grid-name-3
+    {   
+        margin-top: 0px;
+    }
+    .tren-grid-name-4
+    {
+        margin-top: 90px;
+    }
+    .tren-grid-item:hover .tren-grid-name-4
+    {   
+        margin-top: 0px;
+    }
+    .tren-grid-name-5
+    {
+        margin-top: 40px;
+    }
+    .tren-grid-item:hover .tren-grid-name-5
+    {   
+        margin-top: 0px;
+    }
+    .tren-grid-name-6
+    {
+        margin-top: 30px;
+    }
+    .tren-grid-item:hover .tren-grid-name-6
+    {   
+        margin-top: 0px;
+    }
+    .tren-grid-item:hover .tren-grid-date-6
+    {
+        margin-bottom: 0px;
+    }
+    
+    
     
 }
 @media (max-width: 1050px)
@@ -1412,7 +1474,7 @@ footer
     .main-box-img
     {
         top: 95px;
-    right: -2px;
+        right: -2px;
         width: 390px;
     }
     .main-box-left
@@ -1494,6 +1556,12 @@ footer
         font-size: 10px;
         padding: 15px 30px;
     }
+    .main-btn
+    {
+        padding: 23px 0px;
+        width: 100%;
+        display: block;
+    }
 }
 @media (max-width: 486px)
 {
@@ -1553,10 +1621,7 @@ footer
         width: 358px;
         font-size: 23px;
     }
-    .main-btn
-    {
-        padding: 23px 49px;
-    }
+   
     .main-box-img
     {
         width: 300px;
