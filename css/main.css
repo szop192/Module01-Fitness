@@ -1074,6 +1074,122 @@ footer
         display: none;
     }
 }
+@media (max-width: 1520px)
+{
+    .main-box-left
+    {
+        height: 772px;
+    }
+    .main-box-right
+    {
+        height: 772px;
+    }
+    .main-box-img
+    {
+        top: 45px;
+        right: -7px;
+        width: 881px;
+    }
+    .main-arrow-img
+    {
+        margin-top: 130px;
+    }
+}
+
+@media (max-width: 1340px)
+{
+    .main-box
+    {
+        right: 14px;
+    }
+    .main-box-left
+    {
+        height: 694px;
+    }
+    .main-box-right
+    {
+        height: 694px;
+    }
+    .main-box-img
+    {
+        
+        right: 2px;
+        width: 786px;
+    }
+}
+@media (max-width: 1340px)
+{
+    .main-box
+    {
+        max-width: 597px;
+    }
+    .main-box-left
+    {
+        height: 558px;
+    }
+    .main-box-right
+    {
+        height: 558px;
+    }
+    .main-box-img
+    {
+        top: 56px;
+        right: 10px;
+        width: 609px;
+    }
+    .main-text h2 
+    {
+        font-size: 36px;
+        padding-top: 25px;
+    }
+    .main-text-tren
+    {
+        font-size: 34px;
+        margin-top: 26px;
+    }
+    .main-text-butt 
+    {
+        padding-left: 90px;
+    }
+    .main-text-obl 
+    {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+    .main-btn
+    {
+        font-size: 14px;
+    }
+    .main-arrow-img
+    {
+        margin-top: 172px;
+    }
+}
+@media (max-width: 1140px)
+{
+    .main-box
+    {
+        max-width: 500px;
+    }
+    .main-box-left
+    {
+        height: 450px;
+    }
+    .main-box-right
+    {
+        height: 450px;
+    }
+    .main-box-img
+    {
+        top: 45px;
+        right: 40px;
+        width: 492px;
+    }
+    .main-arrow-img
+    {
+        margin-top: 58px;
+    }
+}
 @media (max-width: 1050px)
 {
     .header-item
@@ -1091,6 +1207,62 @@ footer
     .header-item-modal
     {
         flex-basis: 57.7%;
+    }
+    .main-text h2 
+    {
+        font-size: 30px;
+        padding-top: 7px;
+    }
+    .main-text-tren
+    {
+        font-size: 26px;
+    }
+    .main-text-obl 
+    {
+        font-size: 16px;
+    }
+    .main-btn
+    {
+        font-size: 16px;
+    }
+    .main-arrow-img
+    {
+        width: 45px;
+        height: 45px;
+        margin-top: 140px;
+    }
+
+    .main-box-left
+    {
+        height: 480px;
+    }
+    .main-box-right
+    {
+        height: 480px;
+    }
+    .main-box-img
+    {
+        top: 73px;
+        right: 28px;
+        width: 492px;
+    }
+}
+@media (max-width: 930px)
+{
+    .main-text h2 
+    {
+        font-size: 28px;
+        padding-top: 0px;
+    }
+    .main-box
+    {
+        max-width: 450px;
+    }
+    .main-box-img
+    {
+        top: 92px;
+        right: 19px;
+        width: 470px;
     }
 }
 @media (max-width: 768px)
@@ -1112,5 +1284,126 @@ footer
         position: absolute;
         left: 144px;
         top: 55px;
+    }
+    .main-text h2 
+    {
+        font-size: 26px;
+    }
+    .main-text-butt 
+    {
+        padding-left: 0px;
+    }
+    .main-arrow-img
+    {
+        width: 40px;
+        height: 40px;
+        margin-top: 95px;
+    }
+    .main-box
+    {
+        max-width: 350px;
+    }
+    .main-box-img
+    {
+        top: 95px;
+    right: -2px;
+        width: 390px;
+    }
+    .main-box-left
+    {
+        height: 418px;
+    }
+    .main-box-right
+    {
+        height: 418px;
+    }
+}
+@media (max-width: 737px)
+{
+    .main-box
+    {
+        margin-top: 0px;
+        top: 305px;
+        gap: 13px;
+        right: 192px;
+    }
+    .main-box-img
+    {
+        top: 18px;
+        right: 7px;
+        width: 342px;
+    }
+    .main-box-left
+    {
+        height: 300px;
+    }
+    .main-box-right
+    {
+        height: 300px;
+    }
+    .main-arrow
+    {
+       display: none;
+    }
+    .events
+    {
+        padding-top: 210px;
+    }
+    .main-text h2 
+    {
+        padding-bottom: 0px;
+    }
+    .main-text-tren 
+    {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 561px)
+{
+    .main-box
+    {
+        right: 110px;
+    }
+}
+@media (max-width: 486px)
+{
+    .main-box
+    {
+        right: 60px;
+    }
+}
+@media (max-width: 432px)
+{
+    .main-box
+    {
+        right: 15px;
+    }
+}
+@media (max-width: 391px)
+{
+    .main-text h2 
+    {
+        width: 358px;
+        font-size: 23px;
+    }
+    .main-btn
+    {
+        padding: 23px 49px;
+    }
+    .main-box-img
+    {
+        width: 300px;
+    }
+    .main-box
+    {
+        right: 7px;    
+    }
+    .main-box-left
+    {
+        height: 268px;
+    }
+    .main-box-right
+    {
+        height: 268px;
     }
 }
