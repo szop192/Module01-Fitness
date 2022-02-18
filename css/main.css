@@ -896,6 +896,14 @@ footer
     display: flex;
     justify-content: space-between;
 }
+.footer-top-1
+{
+    display: flex;
+}
+.footer-top-2
+{
+    display: flex;
+}
 .footer-bot
 {
     display: flex;
@@ -1480,6 +1488,26 @@ footer
     {
         margin-right: 30px;
     }
+    footer 
+    {
+        height: 280px;
+    }
+    .footer-top
+    {
+        display: block;
+    }
+    .footer-top-2
+    {
+        justify-content: flex-end;
+    }
+    .footer-top-1
+    {
+        justify-content: space-between;
+    }
+    .footer-nav
+    {
+        flex-basis: auto;
+    }
 }
 @media (max-width: 890px)
 {
@@ -1706,6 +1734,51 @@ footer
         padding-top: 185px;
     }
 }
+@media (max-width: 640px)
+{
+    footer 
+    {
+        height: 340px;
+    }
+    .footer-top-1
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-top-2
+    {
+        justify-content: space-between;
+    }
+    .footer-email-circle
+    {
+        right: 125px;
+    }
+    .footer-logo
+    {
+        margin-top: 42px;
+    }
+    .footer-nav
+    {
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 41px;
+    }
+    .footer-email
+    {
+        margin-top: 20px;
+    }
+    .footer-soc
+    {
+        margin-top: 20px;
+    }
+    .footer-bot
+    {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
 @media (max-width: 620px)
 {
     .tren-grid
@@ -1920,6 +1993,10 @@ footer
         padding-right: 0px;
         margin-left: 10px;
     }
+    .events-h2
+    {
+        width: 215px;
+    }
     
 }
 @media (max-width: 570px)
@@ -1935,6 +2012,10 @@ footer
     .events-h1
     {
         font-size: 34px;
+    }
+    .events-plus
+    {
+        bottom: -4px;    
     }
 }
 @media (max-width: 561px)
@@ -1953,6 +2034,10 @@ footer
         padding: 23px 0px;
         width: 100%;
         display: block;
+    }
+    .footer-nav
+    {
+        gap: 75px;
     }
 }
 @media (max-width: 486px)
@@ -1993,41 +2078,21 @@ footer
     {
         bottom: 45px;
     }
+    .footer-nav
+    {
+        gap: 55px;
+    }
+    .footer-bot p 
+    {
+        font-size: 10px;
+    }
 
 }
 @media (max-width: 432px)
 {
-    .main-box
-    {
-        right: 15px;
-    }
-    .events-data
-    {
-        margin-left: 10px;
-    }
-    .events-h2
-    {
-        margin-left: 10px;
-    }
-    
-    .events-hidden-btn
-    {
-       margin-left: 10px;
-    }
-    .container-grid
-    {
-        margin-bottom: 65px;
-    }
-    .content-img
-    {
-        bottom: 55px;
-    }
-}
-@media (max-width: 391px)
-{
     .main-text h2 
     {
-        width: 358px;
+        width: 340px;
         font-size: 23px;
     }
     .main-box-img
@@ -2047,10 +2112,18 @@ footer
     {
         height: 268px;
     }
+    .events-data
+    {
+        margin-left: 10px;
+    }
+    .events-h2
+    {
+        margin-left: 10px;
+    }
+    
     .events-hidden-btn
     {
-        font-size: 10px;
-        padding: 10px 15px;
+       margin-left: 10px;
     }
     .tren-grid
     {
@@ -2167,6 +2240,43 @@ footer
     {   
         margin-top: 0px;
     }
+    .container-grid
+    {
+        margin-bottom: 65px;
+    }
+    .content-img
+    {
+        bottom: 55px;
+    }
+    .footer-nav
+    {
+        gap: 30px;
+    }
+    .footer-email a 
+    {
+        font-size: 12px;
+    }
+    .footer-email-circle
+    {
+        width: 20px;
+        height: 20px;
+        right: 96px;
+        top: -8px;
+    }
+    .footer-nav a
+    {
+        font-size: 12px;
+    }
+}
+@media (max-width: 391px)
+{
+    
+    .events-hidden-btn
+    {
+        font-size: 10px;
+        padding: 10px 15px;
+    }
+
     .email-header
     {
         margin-left: 70px;
