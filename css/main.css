@@ -695,7 +695,7 @@ input p
     cursor: pointer;
     background: #FBF138;
     box-shadow: 0px 13px 24px rgba(251, 241, 56, 0.2);
-    margin-bottom: 10px;
+    margin-bottom: 28px;
     transition: 0.3s;
 }
 .email-btn:hover
@@ -1552,6 +1552,37 @@ footer
     {
         font-size: 24px;
     }
+    .email-header
+    {
+        font-size: 26px;
+        text-align: center;
+        width: 201px;
+        margin-left: 90px;
+        line-height: 32px;
+        margin-top: -8px;
+    }
+    .email-header-circle
+    {
+        width: 31px;
+        height: 31px;
+        right: 183px;
+        top: 39px;
+    }
+    form
+    {
+        display: block;
+    }
+    .email-btn
+    {
+        margin-bottom: 0px;
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 340px;
+    }
+    input
+    {
+        width: 170px;
+    }
 }
 @media (max-width: 737px)
 {
@@ -1999,5 +2030,18 @@ footer
     .tren-grid-item:hover .tren-grid-name-6
     {   
         margin-top: 0px;
+    }
+    .email-header
+    {
+        margin-left: 70px;
+    }
+    .email-btn
+    {
+        width: 290px;
+    }
+    input
+    {
+        width: 120px;
+        margin-right: 20px;
     }
 }
