@@ -337,7 +337,7 @@ body
 {
     display: none;
     right: 0px;
-    bottom: -4px;
+    bottom: -5px;
     position: absolute;
 }
 .events-f-gr:hover .events-hidden-btn
@@ -427,6 +427,10 @@ body
     margin-bottom: 0px;
     margin-bottom:0px;
 }
+.tren-grid-name-4
+{
+    margin-top: 180px;
+}
 .tren-grid-name-5
 {
     margin-top: 68px;
@@ -475,7 +479,7 @@ body
 }
 .tren-grid-item:hover .tren-grid-name-4
 {
-    margin-bottom: 40px;
+    margin-top: 80px;
 }
 .tren-grid-item:hover .tren-grid-h3-4
 {
@@ -1631,6 +1635,14 @@ footer
         grid-row: 6;
         grid-column: 1;
     }
+    .tren-grid-name
+    {
+        display: flex;
+    }
+    .tren-grid-img
+    {
+        margin-bottom: 0px;
+    }
     .tren-grid-name-1
     {
         margin-top: 40px;
@@ -1645,7 +1657,7 @@ footer
     }
     .tren-grid-item:hover .tren-grid-img-2
     {   
-        margin-bottom: 10px;
+        margin-top: 10px;
     }
     .tren-grid-item:hover .tren-grid-img-3
     {   
@@ -1653,11 +1665,12 @@ footer
     }
     .tren-grid-name-4
     {
-        margin-top: 0px;
+        margin-top: 35px;
     }
-    .tren-grid-item:hover .tren-grid-name-4
-    {   
-        margin-top: -50px;
+    .tren-grid-img-4
+    {
+        height: 69px;
+        margin-bottom: 0px;
     }
     .tren-grid-item:hover .tren-grid-img-4
     {   
@@ -1683,6 +1696,79 @@ footer
     .tren-header-data
     {
         font-size: 16px;
+    }
+    .tren-grid-hidden
+    {
+        margin-left: 80px;
+    }
+    .tren-grid-hidden-2
+    {
+        margin-left: 53px;
+    }
+    .tren-grid-hidden-3
+    {
+        margin-left: 93px;
+    }
+    .tren-grid-hidden-4
+    {
+        margin-left: 64px;
+    }
+    .tren-grid-hidden-5
+    {
+        margin-left: 73px;
+    }
+    .tren-grid-hidden-6
+    {
+        margin-left: 68px;
+    }
+    .tren-grid-hidden:hover
+    {
+        max-height: 200px;
+    }
+    .tren-grid-h3
+    {
+        height: 25px;
+        margin-top: 25px;
+    }
+    .tren-grid-h3-4
+    {
+        margin-top: 37px;
+    }
+    .tren-grid-h3-3
+    {
+        margin-top: 12px;
+    }
+    .tren-grid-h3-2
+    {
+        margin-top: 37px;
+    }
+    .tren-grid-item:hover .tren-grid-name-4
+    {   
+        margin-top: 0px;
+    }
+    .tren-grid-item:hover .tren-grid-h3
+    {
+        margin-top: 25px;
+    }
+    .tren-grid-item:hover .tren-grid-h3-4
+    {
+        margin-top: 37px;
+    }
+    .tren-grid-item:hover .tren-grid-h3-2
+    {
+        margin-top: 37px;
+    }
+    .tren-grid-item:hover .tren-grid-h3-3
+    {
+        margin-top: 12px;
+    }
+    .tren-grid-item:hover .tren-grid-img-3
+    {   
+        margin-bottom: 0px;
+    }
+    .tren-grid-item:hover .tren-grid-name-3
+    {   
+        margin-top: 0px;
     }
     
 }
@@ -1778,7 +1864,6 @@ footer
         width: 358px;
         font-size: 23px;
     }
-   
     .main-box-img
     {
         width: 300px;
@@ -1799,5 +1884,120 @@ footer
     {
         font-size: 10px;
         padding: 10px 15px;
+    }
+    .tren-grid
+    {
+        grid-template-rows: 150px 150px 150px 150px 150px 150px ;
+    }
+    .tren-grid-h3
+    {
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    .tren-grid-img-1
+    {
+        height: 50px;
+        width: 50px;
+    }
+    .tren-grid-img-5
+    {
+        height: 40px;
+        width: 50px;
+    }
+    .tren-grid-img-2
+    {
+        height: 60px;
+    }
+    .tren-grid-img-3
+    {
+        height: 40px;
+        width: 60px;
+    }
+    .tren-grid-name-3
+    {
+      margin-top: 44px;
+    }
+    .tren-grid-hidden
+    {
+        margin-left: 60px;
+        font-size: 12px;
+        width: 200px;
+    }
+    .tren-grid-hidden-2
+    {
+        margin-left: 44px;
+    }
+    .tren-grid-hidden-4
+    {
+        margin-left: 56px;
+    }
+    .tren-grid-h3
+    {
+        height: 25px;
+        margin-top: 25px;
+    }
+    .tren-grid-h3-4
+    {
+        margin-top: 37px;
+    }
+    .tren-grid-h3-3
+    {
+        margin-top: 12px;
+    }
+    .tren-grid-h3-2
+    {
+        margin-top: 37px;
+    }
+    .tren-grid-h3-5
+    {
+        margin-top: 17px;
+    }
+    .tren-grid-name-4
+    {
+        margin-top: 20px;
+    }
+    .tren-grid-item:hover .tren-grid-name-4
+    {   
+        margin-top: -40px;
+    }
+    .tren-grid-item:hover .tren-grid-img-4
+    {   
+        margin-bottom: 0px;
+    }
+    .tren-grid-item:hover .tren-grid-h3
+    {
+        margin-top: 25px;
+    }
+    .tren-grid-item:hover .tren-grid-h3-4
+    {
+        margin-top: 37px;
+    }
+    .tren-grid-item:hover .tren-grid-h3-2
+    {
+        margin-top: 37px;
+    }
+    .tren-grid-item:hover .tren-grid-h3-3
+    {
+        margin-top: 12px;
+    }
+    .tren-grid-item:hover .tren-grid-img-3
+    {   
+        margin-bottom: 0px;
+    }
+    .tren-grid-item:hover .tren-grid-name-3
+    {   
+        margin-top: 0px;
+    }
+    .tren-grid-item:hover .tren-grid-h3-6
+    {
+        margin-top: 25px;
+    }
+    .tren-grid-item:hover .tren-grid-img-6
+    {   
+        margin-bottom: 0px;
+    }
+    .tren-grid-item:hover .tren-grid-name-6
+    {   
+        margin-top: 0px;
     }
 }
