@@ -830,6 +830,7 @@ input::placeholder {
     color: #2B3541;
     margin-left: 5px;
     margin-bottom: 55px;
+    width: 472px;
 }
 .content-a
 {
@@ -1338,8 +1339,59 @@ footer
     {
         margin-bottom: 0px;
     }
-    
-    
+    .content-grid
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 150px;
+        grid-auto-flow: row;
+    }
+    .content-grid-item-1
+    {
+        width: 220px;
+    }
+    .content-grid-item-h1
+    {
+        font-size: 16px;
+    }
+    .content-grid-item-p
+    {
+        font-size: 16px;
+    }
+    .content-grid-item-2
+    {
+        width: 254px;
+    }
+    .content-grid-item-3
+    {
+        width: 220px;
+    }
+    .content-grid-item-4
+    {
+        width: 220px;
+    }
+    .content-h1 
+    {
+        font-size: 24px;
+    }
+    .content-p 
+    {
+        font-size: 16px;
+        width: 310px;
+    }
+    .content-a
+    {
+        padding: 24px 50px;
+    }
+    .content-img 
+    {
+        margin-right: 150px;
+    }
+    .content-image
+    {
+        width: 373px;
+        height: 227px;
+    }
     
 }
 @media (max-width: 1050px)
@@ -1398,6 +1450,10 @@ footer
         right: 28px;
         width: 492px;
     }
+    .content-img 
+    {
+        margin-right: 75px;
+    }
 }
 @media (max-width: 930px)
 {
@@ -1415,6 +1471,10 @@ footer
         top: 92px;
         right: 19px;
         width: 470px;
+    }
+    .content-img 
+    {
+        margin-right: 30px;
     }
 }
 @media (max-width: 890px)
@@ -1467,6 +1527,10 @@ footer
     {
         display: block;
     }
+    .content-img 
+    {
+        margin-right: 10px;
+    }
 }
 
 @media (max-width: 768px)
@@ -1505,7 +1569,7 @@ footer
     }
     .main-box
     {
-        max-width: 350px;
+        max-width: 315px;
     }
     .main-box-img
     {
@@ -1582,6 +1646,15 @@ footer
     input
     {
         width: 170px;
+    }
+    .content-iamge
+    {
+        width: 340px;
+        height: 207px;
+    }
+    .content-img
+    {
+        margin-right: 0px;
     }
 }
 @media (max-width: 737px)
