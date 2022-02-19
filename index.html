@@ -9,6 +9,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+    <link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <title>Fitnes</title>
 </head>
 <body>
@@ -153,17 +159,16 @@
                     <span class="email-header-circle"></span> 
                     Подпишитесь на рассылку
                 </h1>
-                <form action="">
+                <form class="email-form" action="">
                     <div>
-                        <input type="email" placeholder="Ваш e-mail">
+                        <input class="email-input" type="email" placeholder="Ваш e-mail">
                         <div class="agreement">
                             <input type="checkbox" id="01" class="checkbox">
                             <label for="01"><span class="label-text">Согласен с обработкой <a class="email-a" href="https://annblok.ru/workshop" target="_blank">персональных данных</a></span></label>
                          </div>
                     </div>
-                    <button class="email-btn" type="submit">Подписаться</button>
+                    <button class="email-but" type="submit">Подписаться</button>
                  </form>
-                 
             </div>
         </section>
         <section id="content">
@@ -173,7 +178,7 @@
                         <div class="content-first">
                             <h1 class="content-h1">О компании</h1>
                             <p class="content-p">Наша компания является одной из немногих, кто предлагает фитнес услуги онлайн! Оставайтесь с нами и вы сами увидите, что мы проводим не только онлайн-тренировки.</p>
-                            <a class="content-a" href="#">Записаться</a>
+                            <a class="content-a" href="#background">Записаться</a>
                         </div>
                         <div class="content-img">
                             <img class="content-image" src="img/jpg/4.jpg" alt="women"/>
@@ -246,6 +251,26 @@
         </div>
         <button class="burger-close" onclick="closeModal()"></button>
     </div>
+    <div id="background" class="background">
+        <div id="popup" class="popup">
+            <a href="#" class="popup-close"></a>
+            <p class="popup-title">
+                Заявка на участие "Марафон выносливости"
+                <span class="yellow-count"></span>
+            </p>
+            <p class="popup-text">
+                Заполните все поля, и мы пришлем информацию в ближайшее время
+            </p>
+            <form action="#" class="popup-form">
+                <input type="email" placeholder="Ваш e-mail" name="email" class="popup-email" required>
+                <input type="tel" placeholder="Ваш номер телефона" name="phone" class="popup-phone" required>
+                <button type="submit" class="btn-popup">
+                    отправить
+                </button>
+                <p class="popup-text-empty"></p>
+            </form>
+        </div>
+    </div> 
     <script>
         // Smooth Scroll
 
